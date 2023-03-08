@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import selfie from "../../Assets/about-pic.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,22 +19,21 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            I'm a software engineer passionate about learning new technologies. My adaptability, ability to empathize and communicate well in collaborative environments makes me an excellent addition to any team. Because of my public health background, I’m highly motivated to creating solutions-driven applications that have a positive impact on users’ quality of life.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple">  Javascript ans Typescript</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              {/* My field of Interest's are building new &nbsp; */}
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                {/* <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Deep Learning and Natural Launguage Processing.
-                </b>
+                </b> */}
               </i>
               <br />
               <br />
@@ -48,13 +47,14 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js </b>
               </i>
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={selfie} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -67,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Kay7531"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,7 +75,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
@@ -84,10 +84,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/kautharmumin33/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,7 +95,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/soumyajit4419"
                   target="_blank"
@@ -104,7 +104,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
