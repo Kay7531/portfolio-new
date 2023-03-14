@@ -37,7 +37,7 @@ function Projects() {
               imgPath={restful}
               isBlog={false}
               title="restfulRooms"
-              description="Platform for finding short-term accommodations for programmers who are traveling for work. Like Airbnb, it allows homeowners to rent out their spare rooms or entire homes to guests.This was a group project that required utilization of a git-hub workflow. We used MongoDB,  React.js Express, and Node.js"
+              description="Find short-term accommodations for programmers who are traveling for work. Like Airbnb, restfulRooms allows homeowners to rent out their spare rooms or entire homes to guests. This was a group project that required utilization of a git-hub workflow. We used MongoDB,  React.js Express, and Node.js"
               ghLink="https://github.com/izabela2279/restful-rooms-front-end"
               demoLink="https://restful-rooms.netlify.app/"
             />
@@ -59,8 +59,8 @@ function Projects() {
             <ProjectCard
               imgPath={connect}
               isBlog={false}
-              title="Connect the dance troopers"
-              description="Using DOM manipulation I was able to create a connect four game with a fun stormtrooper theme. "
+              title="Connect the Dance Troopers"
+              description="Using DOM manipulation I was able to created a connect four game with a fun stormtrooper theme. "
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />

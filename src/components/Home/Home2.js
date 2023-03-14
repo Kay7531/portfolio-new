@@ -19,14 +19,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I'm a software engineer passionate about learning new technologies. My adaptability, ability to empathize and communicate well in collaborative environments makes me an excellent addition to any team. Because of my public health background, I’m highly motivated to creating solutions-driven applications that have a positive impact on users’ quality of life.
+            I'm a software engineer passionate about learning new technologies. My adaptability, ability to empathize and communicate well in collaborative environments makes me an excellent addition to any team. Because of my public health background, I’m highly motivated to create solutions-driven applications that have a positive impact on users’ quality of life.
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple">  Javascript and Typescript</b>
+                <b className="purple">  Javascript and Typescript. </b>
               </i>
-              <br />
-              <br />
+            
               {/* My field of Interest's are building new &nbsp; */}
               <i>
                 {/* <b className="purple">Web Technologies and Products </b> and
@@ -35,8 +34,8 @@ function Home2() {
                   Deep Learning and Natural Launguage Processing.
                 </b> */}
               </i>
-              <br />
-              <br />
+              
+            
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>

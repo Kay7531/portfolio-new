@@ -30,7 +30,7 @@ function Home() {
                 <p style={{ color: "rgb(155 126 172)" }}>
             "A solutions-driven engineer seeking new opportunities to learn and grow."{" "}
           </p>
-          <footer className="blockquote-footer">Kauthar </footer>
+          {/* <footer className="blockquote-footer">Kauthar </footer> */}
               </div>
             </Col>
 
